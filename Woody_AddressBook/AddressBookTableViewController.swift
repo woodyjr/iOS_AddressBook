@@ -97,5 +97,20 @@ class AddressBookTableViewController: UITableViewController {
         }
     }
     
+    @IBAction func cancel(NewContact  segue: UIStoryboardSegue){
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func save(SaveSegue  segue: UIStoryboardSegue){
+        //1. retrieve the new contact from add new contact controller
+        let source = segue.source as! AddNewContactTableViewController
+        //2. add new contact to data source
+        let newContact = source.contact
+        //3. refresh the table view to update the list
+        dataSource.addContact(contact: newContact!)
+        tableView.reloadData()
+        //4. dismiss the view
+        dismiss(animated: true, completion: nil)
+    }
 
 }

@@ -15,6 +15,7 @@
 		FD6C62DA2063182800593C65 /* ContactPersonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C62D92063182800593C65 /* ContactPersonDataSource.swift */; };
 		FD6C62DC20631F1B00593C65 /* AddressBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C62DB20631F1B00593C65 /* AddressBookTableViewController.swift */; };
 		FD6C62DE206C746F00593C65 /* ContactDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C62DD206C746F00593C65 /* ContactDetailsTableViewController.swift */; };
+		FD6C62E0206DB27300593C65 /* AddNewContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C62DF206DB27300593C65 /* AddNewContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FD6C62D92063182800593C65 /* ContactPersonDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPersonDataSource.swift; sourceTree = "<group>"; };
 		FD6C62DB20631F1B00593C65 /* AddressBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookTableViewController.swift; sourceTree = "<group>"; };
 		FD6C62DD206C746F00593C65 /* ContactDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsTableViewController.swift; sourceTree = "<group>"; };
+		FD6C62DF206DB27300593C65 /* AddNewContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				FD6C62DB20631F1B00593C65 /* AddressBookTableViewController.swift */,
 				FD6C62C520630E2600593C65 /* AppDelegate.swift */,
 				FD6C62C920630E2600593C65 /* Main.storyboard */,
+				FD6C62DF206DB27300593C65 /* AddNewContactTableViewController.swift */,
 				FD6C62CC20630E2600593C65 /* Assets.xcassets */,
 				FD6C62CE20630E2600593C65 /* LaunchScreen.storyboard */,
 				FD6C62D72063161500593C65 /* ContactPerson.swift */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD6C62DE206C746F00593C65 /* ContactDetailsTableViewController.swift in Sources */,
+				FD6C62E0206DB27300593C65 /* AddNewContactTableViewController.swift in Sources */,
 				FD6C62C620630E2600593C65 /* AppDelegate.swift in Sources */,
 				FD6C62DA2063182800593C65 /* ContactPersonDataSource.swift in Sources */,
 				FD6C62D82063161500593C65 /* ContactPerson.swift in Sources */,
